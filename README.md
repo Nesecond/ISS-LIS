@@ -9,13 +9,13 @@ Description
 This code reads ISS-LIS QC L2 files and save them as .mat files. 
 The files include 3 data products: event, group and flash.
 
-- Event level parameters
+- Event level parameters:
 Orbit# Year Month Day Hour Minute Second Millisecond Obs_time Lat Lon Radiance Footprint Address ParentAdd X_pixel Y_pixel RawBg CalBg RawAmp Sza Glint Threshold AlertFg ClusterIndx DensityIndx NoiseIndx BgFg
 
-- Group level parameters
+- Group level parameters:
 Orbit# Year Month Day Hour Minute Second Millisecond Obs_time Lat Lon Radiance Footprint Address ParentAdd ChildAdd ChildCount Threshold Alert ClusterIndx DensityIndx NoiseIndx Glint Eccentricity
 
-- Flash level parameters
+- Flash level parameters:
 Orbit# Year Month Day Hour Minute Second Millisecond Duration Obs_time Lat Lon Radiance Footprint Address ParentAdd ChildAdd ChildCount GrandchildCount Threshold Alert
 
 For more details about the ISS-LIS instrument and data structure, see https://ghrc.nsstc.nasa.gov/lightning/data/data_lis_iss.html.
