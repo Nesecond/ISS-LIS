@@ -1,0 +1,14 @@
+# Leap Second
+
+LIS uses TAI93 time standard. When using datestr or datenum in Matlab, caution is to be taken to add leap seconds. 
+
+------------------------------------------------
+The time values (TAI93: International Atomic Time 1993) are elapsed time in seconds since Jan 1, 1993, Coordinated Universal Time (UTC). 
+For example, a time value of 410227204.00 corresponds to 12/31/2005 23:59:59.00 UTC. 
+Note that a leap second was added at the end of 2005 (i.e. December 31, 2005). 
+Therefore, TAI93 value of 410227206.00 (2 seconds after the above example) is 01/01/2006 00:00:00.00 UTC (not 01/01/2006 00:00:01.00 UTC) due to the leap second. 
+Leap seconds are introduced on an irregular basis (see http://tycho.usno.navy.mil/leapsec.html for additional information on leap seconds and ftp://hpiers.obspm.fr/iers/bul/bulc/bulletinc.dat for announcements on the introduction of new leap seconds). 
+[Copied from https://disc.gsfc.nasa.gov/information/faqs?title=What%20do%20the%20time%20values%20in%20AIRS%20L1%20and%20L2%20data%20products%20represent%3F.]
+-------------------------------------------------
+
+
