@@ -1,11 +1,11 @@
-Read ISS-LIS
+## Read ISS-LIS
 
 DOI: https://doi.org/10.1175/JTECH-D-18-0173.1.
 
-Installation
+# Installation
 read_LIS_pub.m requires installation of Matlab.
 
-Description
+# Description
 This code reads ISS-LIS QC L2 files and save them as .mat files. 
 The files include 3 data products: event, group and flash.
 
